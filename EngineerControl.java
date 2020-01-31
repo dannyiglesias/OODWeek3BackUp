@@ -7,14 +7,10 @@ public class EngineerControl {
 	public EngineerControl() {}
 	
 	public void setCommand(Command command) {
-		slot = command;
-		
+		slot = command;		
 	}
 	
 	public void commandInitiated() {
 		slot.execute();
-	
-
 	}
-
 }
