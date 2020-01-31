@@ -8,9 +8,6 @@ public class EngineWarmCommand implements Command {
 	}
 	
 	public void execute() {
-		engine.warm();
-		
-		
+		engine.warm();	
 	}
-
 }
