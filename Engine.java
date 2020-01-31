@@ -9,27 +9,11 @@ public class Engine {
 	
 	public void on() {
 		System.out.println("Engine is now on");
-//		on = true;
 	}
 	
 	public void off() {
-//		on = false;
 		System.out.println("Engine is now off");
 	}
-	
-//	public void engineOn() {
-//		if (on) {
-//			System.out.println("Engine is now on");
-//			
-//		}
-//		
-//	}
-//	
-//	public void engineOff() {
-//		if (on) {
-//			System.out.println("Engine is now off");
-//		}
-//	}
 	
 	public void setRevolutions(int revolutions) {
 		this.revolutions = revolutions;
