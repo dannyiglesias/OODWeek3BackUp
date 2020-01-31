@@ -18,5 +18,4 @@ public class KERS {
 		joules = 400;
 		System.out.println("KERS transferring " + joules + "kJ to batteries");
 	}
-
 }
